@@ -3,7 +3,7 @@ import itertools
 import json
 import websockets
 from unicorn_binance_websocket_api import BinanceWebSocketApiManager
-from src.binance_wrapper import BinanceAPI
+from binance_wrapper import BinanceAPI
 
 connected_clients = set()
 client = BinanceAPI()
